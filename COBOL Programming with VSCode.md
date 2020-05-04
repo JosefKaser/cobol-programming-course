@@ -1561,7 +1561,7 @@ In this section, we will use the Zowe CLI interactively to view data set members
 To create a LearnCOBOL profile (and overwrite it if it already exists), issue the following command with your system details (using `prompt*` will prompt you for certain fields and not show input):
 
 ```
-zowe profiles create zosmf LearnCOBOL --host 192.86.32.250 --port 10433 --ru false --user prompt* --pass prompt* 
+zowe profiles create zosmf LearnCOBOL --host 192.86.32.250 --port 10443 --ru false --user prompt* --pass prompt* 
 ```
 
 Many profiles can be created for interacting with different z/OSMF instances. If this was not your first profile, you will want to set it as the default for the following lab exercises. Issue the following command:
@@ -2113,7 +2113,7 @@ The lab associated with this chapter demonstrates the ‘end-of-file’ COBOL co
 
 1. If not already, open VSCode and select Zowe Explorer from the left sidebar.
 
-**Note** : If you are opening a new instance of VSCode (i.e. you closed out of it after the previous usage), you may need to 'Select a filter' again. You can do so by selecting the search icon () next to your named connection in the DATA SETS section and then reselecting the filter previously used. It should be in the listed filters after you have selected the search symbol.
+**Note** : If you are opening a new instance of VSCode (i.e. you closed out of it after the previous usage), you may need to 'Select a filter' again. You can do so by selecting the search icon ![](Images/image132.png) next to your named connection in the DATA SETS section and then reselecting the filter previously used. It should be in the listed filters after you have selected the search symbol.
 
  
 
